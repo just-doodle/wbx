@@ -1,0 +1,35 @@
+{
+	"name": "wbx",
+	"version": "1.0.0",
+	"description": "A cli utility to add CDN easily to your project, powered by CDNJS",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node index.js add jquery -v 3.6.0 "
+	},
+	"repository": {
+		"type": "https://github.com/just-doodle/wbx.git",
+		"url": "notyet"
+	},
+	"keywords": [
+		"cdnjs"
+	],
+	"author": "Harry",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"boxen": "^6.2.1",
+		"chalk": "^5.0.0",
+		"commander": "^9.0.0",
+		"inquirer": "^8.2.0",
+		"jsdom": "^19.0.0",
+		"pretty": "^2.0.0"
+	},
+	"bin": {
+		"cdngo": "index.js"
+	},
+	"bug": {
+		"url": "https://github.com/just-doodle/wbx/issues",
+		"email": "harrytom2606@gmail.com"
+	}
+}
